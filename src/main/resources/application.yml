@@ -1,0 +1,37 @@
+#spring:
+#
+#  datasource:
+#    password: root
+#    url: jdbc:mysql://localhost:3306/rajeev
+#    username: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+#        show_sql: false
+#        format_sql: false
+#    show-sql: false
+spring:
+    data:
+      mongodb:
+           host: localhost
+           port: 27017
+           database: rajeev
+              
+ 
+application:
+     fileAccept: JPG, PNG, GIF
+     
+rabbitmq:
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
+
+
+QC_TASK_START: QC_TASK_START
+
+
+
